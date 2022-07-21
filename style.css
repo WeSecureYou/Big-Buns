@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: unset;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Koulen", cursive;
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.header-container {
+  background-color: #ffaa33;
+  width: 100%;
+  height: 100vh;
+}
+.header-container .header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 90px;
+  padding: 20px 0px;
+}
+.header-container .header-bar .nav ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  list-style: none;
+}
+.header-container .header-bar .nav ul li {
+  margin: 0px 30px;
+  font-size: 19px;
+}
+.header-container .header-bar .nav ul li a {
+  color: #6e260e;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+}
+.header-container .header-bar .logo {
+  margin-top: 20px;
+}
+.header-container .main {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: calc(100vh - 90px);
+  color: #6e260e;
+}
+.header-container .main .main-text h1 {
+  font-size: 120px;
+  letter-spacing: 0.7rem;
+  transform: skew(-10deg);
+}
+.header-container .main .main-text h2 {
+  font-size: 70px;
+  margin-top: -80px;
+  letter-spacing: 0.7rem;
+  transform: skew(-10deg);
+}
+.header-container .main .main-text {
+  display: flex;
+  padding: 0px 150px;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+.header-container .main .main-text .quote {
+  border: 3px dashed #6e260e;
+  width: max-content;
+  padding: 8px 12px;
+  letter-spacing: 0.03rem;
+  transform: skew(-10deg);
+  border-radius: 4px;
+}
+.header-container .main .main-text button {
+  padding: 15px 30px;
+  width: max-content;
+  /* border-radius: 4px; */
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  background-color: #8b0000;
+  margin-top: 15px;
+  font-family: "Koulen", cursive;
+  cursor: pointer;
+  letter-spacing: 0.2rem;
+  border-radius: 10px;
+  transform: skew(-8deg);
+}
+.header-container .main .main-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: max-content;
+  position: absolute;
+  right: 0px;
+  bottom: -50px;
+  height: 100%;
+}
+.middle-container {
+  height: max-content;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.middle-container .heading {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.middle-container .heading h1{
+  font-size: 40px;
+}
+.middle-container .item-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  flex-wrap: wrap;
+  height: max-content;
+  padding: 20px 0px;
+}
+.middle-container .item-row .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 280px;
+  height: 300px;
+  margin: 20px;
+  border: none;
+  background-color: #8b0000;
+  border-radius: 20px;
+  padding: 20px;
+  color: #fff;
+  transform: skew(-4deg);
+}
+.middle-container .item-row .item h3 {
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  transform: skew(-4deg);
+}
+.middle-container .item-row .item button {
+  padding: 15px 30px;
+  width: max-content;
+  /* border-radius: 4px; */
+  outline: none;
+  border: none;
+  color: #8b0000;
+  background-color: #fff;
+  margin-top: 10px;
+  font-family: "Koulen", cursive;
+  cursor: pointer;
+  letter-spacing: 0.2rem;
+  border-radius: 10px;
+  transform: skew(-2deg);
+}
+.limited-promo {
+  height: 50vh;
+  width: 100%;
+  background-color: #ffaa33;
+  padding: 10px 90px;
+  display: flex;
+  align-items: center;
+}
+.limited-promo .promo-box {
+  width: 100%;
+  height: 240px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction :row;
+  justify-content: space-between;
+  transform: skew(-10deg);
+}
+.limited-promo .promo-box .text {
+  display: block;
+  padding: 0px 40px;
+  position: relative;
+  width: 100%;
+}
+.limited-promo .promo-box .text h2 {
+  font-size: 43px;
+  font-weight: 600;
+  letter-spacing: 0rem;
+  font-family: "Secular One", sans-serif;
+  color: #8b0000;
+  transform: skew(-2deg);
+}
+.limited-promo .promo-box .text button{
+  padding: 15px 30px;
+  width: max-content;
+  /* border-radius: 4px; */
+  outline: none;
+  border: none;
+  background-color: #8b0000;
+  color: #fff;
+  margin-top: 10px;
+  font-family: "Koulen", cursive;
+  cursor: pointer;
+  letter-spacing: 0.2rem;
+  transform: skew(-2deg);
+  border-radius: 10px;
+}
+.limited-promo .promo-box img {
+  position: absolute;
+  right: 0;
+}
+.footer {
+  width: 100%;
+  height: 80px;
+  color: #8b0000;
+  padding: 10px 90px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Secular One", sans-serif;
+}
+.mobile-nav {
+  display: none;
+}
+.mobile-menu-extended {
+  display: none;
+}
+.mobile-bottom-nav {
+  display: none;
+}

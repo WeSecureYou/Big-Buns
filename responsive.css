@@ -1,0 +1,275 @@
+@media screen and (max-width: 1257px) {
+  .header-container .main .main-photo img {
+    height: 75%;
+    width: 90%;
+  }
+  .header-container .main .main-photo {
+    right: 0px;
+  }
+}
+@media screen and (max-width: 1146px) {
+  .header-container {
+    background-image: url(/assets/burger-png-png-images-yellow-images-12.png);
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header-container .main .main-photo {
+    display: none;
+  }
+  .header-container .header-bar {
+    /* backdrop-filter: blur(8px); */
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    color: #fff;
+    padding: 0px 30px;
+  }
+  .header-container .header-bar h3 {
+    font-weight: 400;
+    letter-spacing: 0.4rem;
+  }
+  .header-bar .nav {
+    display: none;
+  }
+  .header-bar .mobile-nav {
+    display: block;
+    color: #fff;
+  }
+  .logo,
+  .nav {
+    display: none;
+  }
+  .header-container .main {
+    /* backdrop-filter: blur(5px); */
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+  }
+  .limited-promo .promo-box .text h2 {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0rem;
+    font-family: "Secular One", sans-serif;
+    color: #8b0000;
+    transform: skew(-2deg);
+  }
+  .limited-promo .promo-box img {
+    height: 220px;
+    width: 300px;
+  }
+  .limited-promo .promo-box .text button {
+    padding: 10px 20px;
+    width: max-content;
+    /* border-radius: 4px; */
+    outline: none;
+    border: none;
+    background-color: #8b0000;
+    color: #fff;
+    margin-top: 10px;
+    font-family: "Koulen", cursive;
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+    transform: skew(-2deg);
+    border-radius: 10px;
+  }
+  .limited-promo .promo-box img {
+    position: absolute;
+    right: 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .mobile-bottom-nav .mobile-nav {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+  }
+  .header-container .main {
+    height: 100% !important;
+  }
+  .mobile-bottom-nav {
+    display: flex;
+    width: 100%;
+    height: 85px;
+    flex-direction: row;
+    position: fixed;
+    z-index: 999;
+    top: unset;
+    bottom: 0 !important;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-container .header-bar {
+    display: none;
+  }
+  .mobile-bottom-nav .mobile-nav a {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    padding: 18px;
+    border-radius: 10px;
+    margin: 0px 10px;
+  }
+  .mobile-bottom-nav .mobile-nav .middle i {
+    transform: skew(10deg);
+  }
+  .mobile-bottom-nav .mobile-nav .middle {
+    transform: skew(-10deg);
+    background-color: #8b0000;
+    color: #fff;
+  }
+  .limited-promo .promo-box .text {
+    width: 100%;
+    max-width: 66%;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .limited-promo .promo-box .text {
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+  .limited-promo .promo-box .text h2 {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0rem;
+    font-family: "Secular One", sans-serif;
+    color: #8b0000;
+    transform: skew(-2deg);
+  }
+  .limited-promo .promo-box .text button {
+    padding: 12px 25px;
+    width: max-content;
+    /* border-radius: 4px; */
+    outline: none;
+    border: none;
+    background-color: #8b0000;
+    color: #fff;
+    margin-top: 10px;
+    font-family: "Koulen", cursive;
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+    transform: skew(-2deg);
+    border-radius: 10px;
+  }
+  .limited-promo .promo-box img {
+    display: none;
+  }
+}
+@media screen and (max-width: 645px) {
+  .header-container .main .main-text {
+    padding: 0px 80px;
+  }
+}
+@media screen and (max-width: 498px) {
+  .header-container .main .main-text {
+    width: max-content;
+  }
+  .header-container .main .main-text .quote {
+    display: none;
+  }
+  .header-container .main .main-text h1 {
+    font-size: 80px;
+    letter-spacing: 0.7rem;
+    /* transform: skew(-10deg); */
+  }
+  .header-container .main .main-text h2 {
+    font-size: 70px;
+    margin-top: -40px;
+    letter-spacing: 0.7rem;
+    /* transform: skew(-10deg); */
+  }
+}
+@media screen and (max-width: 457px) {
+  .header-container .main .main-text h1 {
+    font-size: 68px;
+  }
+  .header-container .main .main-text {
+    align-items: flex-start;
+    padding: 0px 30px;
+  }
+  .header-container .main .main-text h2 {
+    font-size: 68px;
+    margin-top: -50px;
+  }
+  .footer {
+    display: none;
+  }
+  .header-container .main .main-text button {
+    padding: 10px 20px;
+    margin-top: 50px;
+  }
+  .heading h1 {
+    margin-top: 30px;
+  }
+  .limited-promo .promo-box .text h2 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0rem;
+    font-family: "Secular One", sans-serif;
+    color: #8b0000;
+    transform: skew(-2deg);
+  }
+  .limited-promo .promo-box .text button {
+    padding: 10px 18px;
+    width: max-content;
+    /* border-radius: 4px; */
+    outline: none;
+    border: none;
+    background-color: #8b0000;
+    color: #fff;
+    margin-top: 10px;
+    font-family: "Koulen", cursive;
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+    transform: skew(-2deg);
+    border-radius: 10px;
+    transform: skew(0deg) !important;
+  }
+  .limited-promo .promo-box .text {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+    align-items: unset;
+  }
+  .limited-promo .promo-box {
+    transform: skew(0deg) !important;
+  }
+  .limited-promo {
+    align-items: unset;
+    height: 50vh;
+    padding: 30px 12px;
+    transform: skew(0deg) !important;
+  }
+  .mobile-bottom-nav {
+    height: 60px;
+    top: unset;
+    bottom: 0 !important;
+  }
+  .mobile-bottom-nav .mobile-nav a {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px 10px;
+  }
+  .mobile-bottom-nav .mobile-nav .middle i {
+    transform: skew(0deg);
+  }
+  .mobile-bottom-nav .mobile-nav .middle {
+    transform: skew(0deg);
+    background-color: #8b0000;
+    color: #fff;
+  }
+}
